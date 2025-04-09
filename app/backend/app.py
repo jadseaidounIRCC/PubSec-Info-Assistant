@@ -68,7 +68,7 @@ ENV = {
     "EMBEDDING_DEPLOYMENT_NAME": "text-embedding-ada-002",
     "AZURE_OPENAI_EMBEDDINGS_MODEL_NAME": "text-embedding-ada-002",
     "AZURE_OPENAI_EMBEDDINGS_VERSION": "2",
-    "AZURE_SUBSCRIPTION_ID": "d7a55bca-4abb-4720-9ffe-133a4755d5b7",
+    "AZURE_SUBSCRIPTION_ID": "512cdc08-71cb-4736-add5-d8a91c3bfa72",
     "AZURE_ARM_MANAGEMENT_API": "https://management.azure.com",
     "CHAT_WARNING_BANNER_TEXT": "",
     "APPLICATION_TITLE": "",
