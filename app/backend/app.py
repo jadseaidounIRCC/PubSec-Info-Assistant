@@ -644,3 +644,6 @@ app.mount(
 
 if __name__ == "__main__":
     log.info("IA WebApp Starting Up...")
+    port = int(os.getenv("PORT", 8000))  # default to port 8000
+    log.info(f"Starting Uvicorn on port {port}")
+    uvicorn.run("app:app", host="0.0.0.0", port=port)
